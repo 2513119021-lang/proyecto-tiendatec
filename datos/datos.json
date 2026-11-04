@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mouse Inalámbrico",
+        "categoria": "Periféricos",
+        "precio": 499.00,
+        "descripcion": "Mouse inalámbrico con alta precisión",
+        "stock": 25
+    },
+    {
+        "id": 2,
+        "nombre": "aguacate",
+        "categoria": "Periféricos",
+        "precio": 680.00,
+        "descripcion": "es un aguacate pa que mas quieres??",
+        "stock": 21
+    }
+
+]
+
+    

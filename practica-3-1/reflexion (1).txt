@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Ficha Libro</title></head>
+<body>
+<nav><a href="../public/index.php">Inicio</a> > <a href="../public/libros.php">Catalogo</a> > <span>Cien Años de Soledad</span></nav>
+
+<main>
+  <h1 id="tituloLibro">Cien Años de Soledad</h1>
+  <figure>
+    <img src="https://via.placeholder.com/200x300?text=Libro" alt="Portada del libro Cien Años de Soledad de Garcia Marquez">
+    <figcaption>Portada edicion conmemorativa</figcaption>
+  </figure>
+  <section id="fichaPrincipal">
+    <p class="dato-secundario">Precio: $299</p>
+    <p class="dato-secundario">Existencia: 15 unidades</p>
+    <p>Obra maestra del realismo magico.</p>
+  </section>
+</main>
+<p>Referencia: <a href="https://quickref.me/html" target="_blank">Ver etiqueta img en QuickRef</a></p>
+</body>
+</html>

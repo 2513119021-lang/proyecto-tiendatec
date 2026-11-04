@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Solicitud de Libro</title></head>
+<body>
+<h1>Formulario de Pedido de Libro</h1>
+<form action="#" method="post">
+  <fieldset>
+    <legend>Datos del solicitante</legend>
+    <label for="nombreCliente">Nombre completo:</label>
+    <input type="text" id="nombreCliente" name="nombreCliente" required>
+
+    <label for="correoCliente">Correo:</label>
+    <input type="email" id="correoCliente" name="correoCliente" required>
+
+    <label for="cantidadLibros">Cantidad:</label>
+    <input type="number" id="cantidadLibros" name="cantidadLibros" min="1" max="10" required>
+
+    <label for="fechaEntrega">Fecha entrega:</label>
+    <input type="date" id="fechaEntrega" name="fechaEntrega" required>
+  </fieldset>
+
+  <label for="tipoEntrega">Tipo de entrega:</label>
+  <select id="tipoEntrega" name="tipoEntrega">
+    <option value="tienda">Recoger en tienda</option>
+    <option value="domicilio">Envio a domicilio</option>
+    <option value="digital">Version digital</option>
+  </select>
+
+  <label for="comentariosPedido">Comentarios:</label>
+  <textarea id="comentariosPedido" name="comentariosPedido" placeholder="Instrucciones especiales"></textarea>
+
+  <button type="submit">Solicitar</button>
+</form>
+</body>
+</html>
