@@ -1,19 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tienda Tec productos</title>
         <link rel="stylesheet" href="assets/css/estilos.css">
     </head>
     <body>
         <header>
-        <h1>PRODUCTOS</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="productos.php">Catálogo</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
-            </ul>
-        </nav>
-
+            <h1>PRODUCTOS</h1>
+            <nav aria-label="Principal">
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="productos.php" aria-current="page">Catálogo</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <h2>catalogo</h2>
             <a href="agregar-producto.php" class="boton-agregar">Agregar producto +</a>
@@ -63,6 +66,5 @@
         <footer>
             <p>&copy; 2024 Tienda Tec. Todos los derechos reservados.</p>
         </footer>
-        </header>
     </body>
 </html>
